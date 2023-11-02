@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(139, 139, 155);
+    background-color: rgba(44, 36, 53, 0.404);
 }
 
 ul {
@@ -62,5 +62,43 @@ ul {
     margin-left:auto;
     margin-right:auto;
     
+
+  }
+
+  #alinea {
+    width:800px;
+    height: 300px;
+    border:solid;
+    border-color: aqua;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+  }
+
+  #Box1 {
+    width: 600px;
+    height: 100px;
+    border:solid;
+    border-color:blanchedalmond ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 60% 60% 0% 0%;
+    background-color: blanchedalmond;
+  }
+
+  #Box2 {
+    width: 800px;
+    height: 300px;
+    border:solid;
+    border-color:blanchedalmond ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border-radius: 15px 15px 5px 5px;
+    background-color: blanchedalmond;
+
 
   }
