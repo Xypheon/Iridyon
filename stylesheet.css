@@ -3,68 +3,36 @@ body {
 }
 
 ul {
+  width: 800px;
   list-style-type: none;
-  overflow:auto;
-  background-color: #e48e55;
-  border-radius:3em;
-  text-align: center;
-  height: 60px;
- 
+  margin-right:auto;
+  margin-left: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
 }
-/*
-ul {
-    list-style-type: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #254563;
-    border-radius:3em;
-  }
-  */
-  li {
-    display: inline-block;
-  }
-  
-  li a {
-    color: rgb(50, 53, 61);
-    text-decoration: none;
-    font-size: 25px;
-    font-family: monospace;
-    padding: 14px;
-    
-  
-    
-   
-    
-  }
-  /*
-  li a {
-    display: block;
-    color: white;
-    text-align:center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 30px;
-    
-  }
 
-  */
+li {
+ 
+  float:left;
+}
+
+li a {
+  font-family:'Times New Roman', Times, serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding:15px 58px;
+  text-decoration: none;
+  font-size: 25px;
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #3fa9ff;
-  }
+}
 
-  #nav {
-    width: 800px;
-    border: solid;
-    border-color: aqua;
-    margin-left:auto;
-    margin-right:auto;
-    
-
-  }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #bbb599;
+}
 
   #alinea {
     width:800px;
@@ -85,12 +53,9 @@ ul {
     border-color:blanchedalmond ;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 60% 60% 0% 0%;
     background-color: #bbb599;
-
-    
-
 
   }
 
