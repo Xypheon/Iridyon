@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(73, 62, 64);
+    background-color: rgb(110, 102, 82);
 }
 
 ul {
@@ -58,7 +58,32 @@ li a:hover {
     background-color: #bbb599;
     
   }
+  #IndexBox1 {
+    width: 600px;
+    height: 100px;
+    border:so0;
+    border-color:blanchedalmond ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 60% 60% 0% 0%;
+    background-color: #bbb599;
+    background-image: linear-gradient(rgb(15, 101, 182), rgba(255, 196, 0, 0.63));
 
+  }
+
+  #IndexBox2 {
+    width: 800px;
+    height: 150px;
+    border:0;
+    border-color:blanchedalmond ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border-radius: 15px 15px 5px 5px;
+    background-color: #bbb599;
+
+  }
   #Box1 {
     width: 600px;
     height: 100px;
@@ -85,6 +110,29 @@ li a:hover {
 
   }
 
-  .plushiemove {
-text-align: center;
+  #bannermove {
+    position: absolute;
+    margin-left: -99px;
+    margin-top: -15px;
+    
+  }
+
+
+  #welcometext {
+    padding: 5px;
+  }
+
+  #Basemove {
+    width:500px;
+    height: 401px;
+    /*border:solid;*/
+    position:absolute;
+    margin-top:-76px;
+    margin-left:145px;
+   
+    
+    
+ 
+    
+    
   }
