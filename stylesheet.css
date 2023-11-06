@@ -3,19 +3,25 @@ body {
 }
 
 ul {
-  width: 1300px;
+  width: 100%;
   list-style-type: none;
-  margin-right:auto;
+  margin-top:0;
   margin-left: auto;
+  margin-right: auto;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  border-radius: 10px;
+  border-radius: 0px;
+}
+
+.pullright {
+  float: right;
 }
 
 li {
  
   float:left;
+ 
 }
 
 li a {
@@ -25,7 +31,8 @@ li a {
   text-align: center;
   padding:15px 58px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
+  
   
 }
 
