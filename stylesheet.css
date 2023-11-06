@@ -12,6 +12,7 @@ ul {
   background-color: #333;
   border-radius: 0px;
   border-bottom: 3px solid rgb(0, 153, 255);
+  
 }
 
 .pullright {
@@ -39,8 +40,81 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #bbb599;
+  
 }
 
+.ul a {
+  
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+ 
+}
+.dropdown{
+  float: left;
+  overflow: hidden;
+  font-size: 20px;
+  
+}
+
+.dropdown .dropbtn {
+  
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding:15px 58px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.ul a:hover, .dropdown:hover .dropbtn {
+  background-color:#bbb599;
+  
+}
+
+.dropdown-content {
+  
+  display: none;
+  position: absolute;
+  background-color: #bbb599;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.eraseblueline {
+  text-decoration: none;
+  color: white;
+  
+}
+
+ /* index*/
   #alinea1 {
     width: 1500px;
     height: 800px;
@@ -53,7 +127,23 @@ li a:hover {
     background-color: #bbb599;
     
   }
+
+ /*breedinfo*/
   #alinea2 {
+    width: 1500px;
+    height: 800px;
+    border:0;
+    border-color:blanchedalmond ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border-radius: 15px 15px 5px 5px;
+    background-color: #bbb599;
+    
+  }
+
+   /*world*/
+   #alinea3 {
     width: 1500px;
     height: 800px;
     border:0;
@@ -78,7 +168,7 @@ li a:hover {
     background-image: linear-gradient(rgb(15, 101, 182), rgba(255, 196, 0, 0.63));
 
   }
-
+ /* index*/
   #IndexBox2 {
     width: 600px;
     height: 100px;
@@ -91,6 +181,7 @@ li a:hover {
     background-color: #bbb599;
 
   }
+  /*breedinfo*/
   #Box1 {
     width: 600px;
     height: 100px;
@@ -103,7 +194,7 @@ li a:hover {
     background-color: #bbb599;
 
   }
-
+/*breedinfo*/
   #Box2 {
     width: 800px;
     height: 330px;
