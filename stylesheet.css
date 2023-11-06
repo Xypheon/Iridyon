@@ -1,6 +1,6 @@
 body {
   margin: 0;
-    background-color: rgb(243, 238, 228);
+    background-color: rgb(248, 247, 244);
 }
 
 ul {
@@ -11,6 +11,7 @@ ul {
   overflow: hidden;
   background-color: #333;
   border-radius: 0px;
+  border-bottom: 3px solid rgb(0, 153, 255);
 }
 
 .pullright {
@@ -41,7 +42,7 @@ li a:hover {
 }
 
   #alinea1 {
-    width: 800px;
+    width: 1500px;
     height: 800px;
     border:0;
     border-color:blanchedalmond ;
@@ -53,7 +54,7 @@ li a:hover {
     
   }
   #alinea2 {
-    width: 800px;
+    width: 1500px;
     height: 800px;
     border:0;
     border-color:blanchedalmond ;
@@ -79,8 +80,8 @@ li a:hover {
   }
 
   #IndexBox2 {
-    width: 800px;
-    height: 150px;
+    width: 600px;
+    height: 100px;
     border:0;
     border-color:blanchedalmond ;
     margin-left: auto;
